@@ -1,0 +1,27 @@
+{
+  "name": "githubfinder",
+  "description": "Simple github user finder app",
+  "main": "index.js",
+  "authors": [
+    "Mark Jaime"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "github",
+    "ajax",
+    "jquery"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize": "^0.100.2"
+  }
+}

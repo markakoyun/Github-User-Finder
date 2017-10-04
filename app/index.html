@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='../bower_components/materialize/dist/css/materialize.min.css' rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <title>GitHub User Finder App</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper teal">
+            <a href="#" class="brand-logo center">Github Finder</a>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+            <h3 class="center-align">Search GitHub User</h3>
+            <div class="row">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="user" type="text">
+                        <label for="user">Enter Username</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-section">
+                <div class="row" id="profile">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src='../bower_components/materialize/dist/js/materialize.min.js'></script>
+<script src="main.js"></script>
+
+</html>
